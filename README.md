@@ -1,6 +1,5 @@
 # Scanner de Porta TCP SYN (Stealth Scan) em Python
 
----
 
 Este é um projeto desenvolvido para fins de estudo em **cibersegurança**, focado em reconhecimento de rede e manipulação de pacotes em baixo nível.
 
@@ -10,13 +9,11 @@ O sistema é executado via **linha de comando (CLI)** e utiliza privilégios de 
 
 # Tech Stack
 
----
 
 [![My Skills](https://skillicons.dev/icons?i=python,linux)](https://skillicons.dev)
 
 ## Funcionalidades
 
----
 
 O sistema permite ao usuário executar as seguintes ações via terminal:
 
@@ -35,7 +32,6 @@ O sistema permite ao usuário executar as seguintes ações via terminal:
 
 ## Estrutura de Dados e Tecnologia
 
----
 
 * `Scapy`: biblioteca poderosa para manipulação interativa de pacotes de rede.
 * `TCP/IP Handshake`: aplicação prática dos conceitos de conexão (SYN -> SYN/ACK -> ACK).
@@ -45,7 +41,6 @@ A escolha dessas ferramentas visa aprofundar o entendimento sobre como os protoc
 
 ## Como Executar
 
----
 
 Este projeto depende da biblioteca externa `scapy` e requer privilégios de administrador (root/sudo).
 
@@ -107,7 +102,6 @@ Recomenda-se o uso de um ambiente virtual, mas lembre-se que o ```sudo``` precis
 
 ## Estrutura de Arquivos
 
----
 
 O projeto segue uma estrutura simples e objetiva:
 ```bash
